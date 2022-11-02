@@ -1,0 +1,26 @@
+name: Pytorch_Retinaface
+channels:
+  - pytorch
+  - conda-forge
+  - pytorch3d
+dependencies:
+  - python=3.9
+  - pip
+  - pytorch3d
+  - pip:
+      - torch
+      - torchvision
+      - numpy
+      - opencv-python
+      - imageio
+      - imageio-ffmpeg
+      - pyyaml
+      - tqdm
+      - argparse
+      - cython
+      - pillow
+      - scikit-image
+      - scipy
+      - tensorboard
+      - onnxruntime
+      - gradio
