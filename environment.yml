@@ -1,4 +1,4 @@
-name: Pytorch_Retinaface
+name: 3DDFA_V2
 channels:
   - pytorch
   - conda-forge
