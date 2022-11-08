@@ -2,11 +2,9 @@ name: 3DDFA_V2
 channels:
   - pytorch
   - conda-forge
-  - pytorch3d
 dependencies:
   - python=3.9
   - pip
-  - pytorch3d
   - pip:
       - torch
       - torchvision
