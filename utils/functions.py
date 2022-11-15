@@ -141,6 +141,7 @@ def draw_landmarks(img, pts, style='fancy', wfp=None, show_flag=False, **kwargs)
             plot_close(59, 48)
             plot_close(67, 60)
 
+            landmarks = []
             for ind in range(len(nums) - 1):
                 l, r = nums[ind], nums[ind + 1]
                 plt.plot(pts[i][0, l:r], pts[i][1, l:r], color=color, lw=lw, alpha=alpha - 0.1)
