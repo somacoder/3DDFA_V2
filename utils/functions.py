@@ -151,6 +151,10 @@ def draw_landmarks(img, pts, style='fancy', wfp=None, show_flag=False, **kwargs)
     if wfp is not None:
         plt.savefig(wfp, dpi=150)
         print(f'Save visualization result to {wfp}')
+        np.savetxt(wfp + ".csv", pts[0], delimiter=",")
+        np.save(wfp + ".npy", pts[0])
+        print(f'Save landmark locations to {wfp}.csv and .npy')
+
 
     if show_flag:
         plt.show()
