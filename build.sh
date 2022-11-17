@@ -1,6 +1,7 @@
 #!/bin/bash
 
-source activate 3DDFA_V2
+conda init bash
+conda activate 3DDFA_V2
 
 cd FaceBoxes
 sh ./build_cpu_nms.sh
