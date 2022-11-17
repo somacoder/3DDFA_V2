@@ -2,8 +2,7 @@
 
 conda env remove -n 3DDFA_V2
 conda env create -f environment.yml
-conda init bash
-. ~/.bashrc
+source ~/anaconda3/etc/profile.d/conda.sh
 conda activate 3DDFA_V2
 
 cd FaceBoxes
