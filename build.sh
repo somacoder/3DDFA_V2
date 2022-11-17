@@ -1,7 +1,7 @@
 #!/bin/bash
 
 source ~/anaconda3/etc/profile.d/conda.sh
-conda deactivate 3DDFA_V2
+conda deactivate
 conda env remove -n 3DDFA_V2
 conda env create -f environment.yml
 conda activate 3DDFA_V2
